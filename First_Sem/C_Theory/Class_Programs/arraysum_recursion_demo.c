@@ -2,10 +2,12 @@
 #include <stdio.h>
 int get_arraysum(int number[]){
     int sum=0;
+    for (int i=0; i<5){
     if (sum==0){
         return number[i];
     }
     return number[i]+get_arraysum(i-1);
+    }
     // for (int i=0;i<5;i++){
     //     sum+=number[i];
     // }
