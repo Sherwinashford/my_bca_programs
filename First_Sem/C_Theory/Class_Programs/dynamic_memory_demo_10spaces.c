@@ -14,4 +14,5 @@ int main(){
     for (int i=0; i<10; i++){ // another for loop to display all values stored, line-after-line
         printf("Value in position %d is %d\n",i,p[i]); //for every value of i, there is a position in p with a stored value to be displayed (10 values)
     }
+    free(p);
 }
